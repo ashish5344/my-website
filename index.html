@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First website</title>
+    <!-- paragraph font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="my-website.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        margin: 0px;
+        line-height: 20px;
+        padding: 0px;
+      }
+
+      body {
+        background-image: url("background image.jpg");
+      }
+
+      p {
+        font-family: "Roboto Mono", monospace;
+        font-size: 20px;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-weight: bolder;
+        line-height: 34px;
+      }
+
+      #heading {
+        text-align: center;
+        font-weight: bolder;
+        line-height: 34px;
+        margin: 20px 0;
+      }
+
+      .navbar {
+        display: flex;
+        position:sticky;
+        top: 0px;
+        background-color: rgba(40, 40, 78, 0.37);
+        padding: 20px 0px;
+        font-family: 'Anuphan', sans-serif;
+        /* margin: -10px -8px; */
+        /* margin-bottom: 15px; */
+        justify-content: center;
+        align-items: center;
+      }
+
+      .navbar li {
+        font-size: 20px;
+        padding: 10px 20px;
+        /* padding-top: 10px; */
+      }
+
+      .navbar ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+      }
+
+      .navbar a {
+        color: white;
+        /* font-size: 1.5rem; */
+        text-decoration: none;
+      }
+
+      .navbar a:hover {
+        color: rgb(0, 255, 90);
+        transition: all 0.7s;
+
+      }
+.home-content{
+  margin: 70px 0px;
+}
+
+.para{
+  max-width: 70%;
+  margin: 0 auto;
+}
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar animate-pulse">
+      <header>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./formula-page.html">Formulas</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </header>
+    </nav>
+    <!-- <div id="navbar">
+        <a href="My website.html" class="link">Home</a>
+        <a href="formula page.html" class="link">Formulas</a>
+        <a href="" class="link">About</a>
+    </div> -->
+    <section class="home-content">
+    <h2 id="heading" class="text-3xl py-5">What is formula in maths?</h2>
+    <p class="para">
+      The formula is fact or a rule written with different mathematical symbols.
+      It usually connects two or more quantities with an equal sign. When you
+      know the value of one quantity, you can find the value of the other using
+      the formula. It helps to solve the questions quickly. In algebra, geometry
+      and other topics, formulas are used to simplify the process of reaching
+      the answer and saving time.
+    </p>
+  </section>
+  </body>
+</html>

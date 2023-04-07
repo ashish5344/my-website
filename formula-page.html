@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="formulas" />
+    <meta name="description" content="Theformulas" />
+    <title>Formulas</title>
+    <style>
+      * {
+        margin: 0px;
+        line-height: 20px;
+        box-sizing: border-box;
+      }
+      body {
+        background-image: url("background image.jpg");
+      }
+      .navbar {
+        display: flex;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: blue;
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .navbar ul {
+        padding-inline-start: 0px;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+      }
+      .navbar ul li {
+        font-size: 20px;
+        padding: 10px 40px;
+        /* padding-top: 10px; */
+      }
+
+
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        transition: all 2s;
+      }
+      
+      .navbar a:hover {
+        color: rgb(72, 255, 0);
+      }
+      
+      .short-formulas {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+        grid-row-gap: 35px;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        /* padding-right: 4px; */
+      }
+      
+      .s-formulas {
+        text-align: center;
+        vertical-align: middle;
+        border: 3px solid rgb(0, 150, 255);
+        border-radius: 3px;
+        background-color: #89e4ff;
+        width: 350px;
+        height: 30px;
+        font-size: 15px;
+      }
+      section {
+        margin-top: 50px;
+      }
+      /* @media only screen and (min-width:45px){
+        
+      } */
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="My website.html">Home</a></li>
+          <li><a href="formula page.html">Formulas</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h3 style="padding-left: 4px">Some maths formulas are here :</h3>
+
+      <div class="short-formulas">
+        <div class="s-formulas" id="box-1">1 litre = 1000 ml</div>
+        <div class="s-formulas" id="box-2">₹ 1 = 100 p</div>
+        <div class="s-formulas" id="box-3">1Km = 1000m</div>
+        <div class="s-formulas" id="box-4">Profit = S.P - C.P</div>
+        <div class="s-formulas" id="box-5">Loss = C.P - S.P</div>
+        <div class="s-formulas" id="box-6">C.P = S.P - Profit</div>
+        <div class="s-formulas" id="box-7">C.P = S.P + Loss</div>
+        <div class="s-formulas" id="box-8">S.P = C.P + Profit</div>
+        <div class="s-formulas" id="box-9">S.P = C.P - Loss</div>
+        <div class="s-formulas" id="box-10">
+          Loss percent = Loss/C.P &times; 100
+        </div>
+        <div class="s-formulas" id="box-11">
+          Profit percent = Profit/C.P &times; 100
+        </div>
+        <div class="s-formulas" id="box-12">
+          Loss = Loss percent &times; C.P/100
+        </div>
+        <div class="s-formulas" id="box-13">
+          Profit = Profit percent &times; C.P/100
+        </div>
+        <div class="s-formulas" id="box-14">Radius = d / 2</div>
+        <div class="s-formulas" id="box-15">Diameter = 2 &times; radius</div>
+        <div class="s-formulas" id="box-16">
+          Circumference = 2 𝜋 &times; radius
+        </div>
+        <div class="s-formulas" id="box-17">
+          radius = circumference / 2 &times; 𝜋
+        </div>
+        <div class="s-formulas" id="box-18">
+          Circumference = 𝜋 &times; diameter
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
